@@ -1,0 +1,462 @@
+html, body {
+    font-family: 'Rubik Bubbles', cursive;
+    color: darkgoldenrod;
+    font-size: 16px;
+    line-height: 1.5;
+    min-width: 300px;
+    background-color: antiquewhite;
+}
+img {
+    display: inline-block;
+}
+a {
+    transition: 0.5s case-out;
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+a:hover {
+    color: #8B4513;
+    font-weight: 900;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    text-align: center;
+    font-size: 20px;
+}
+/* ***********************************
+Header
+***************************************** */
+
+.header {
+    background: #90EE90;
+    background-image: url("../pic/KodakEktar250.jpg");
+/*    background-repeat: no-repeat;*/
+    background-position: center;
+/*    background-size: cover;*/
+/*    min-height: 250px;*/
+    height: 250px;
+    
+    color: #F5DEB3;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+/*    position: sticky:*/
+}
+
+.h_title {
+    font-size: 55px;
+    margin-bottom: 0px;
+    margin-top: auto;
+}
+.h_title a {
+    text-decoration: none;
+    color: wheat;
+}
+.h_title a:hover {
+    color: brown;
+}
+
+.h_slogan {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: auto;
+}
+
+/* ***********************************
+Navigation
+***************************************** */
+nav {
+    background-color: burlywood;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.topnav {
+/*    background-color: burlywood;*/
+    font-size: 18px;
+    margin-top: 0px;
+}
+.topnav a {
+    color: #FFF8DC;
+    text-align: center;
+    padding: 14px 16px;
+}
+.topnav a:hover {
+    color: #8B4513;
+    /*    border-bottom: 3px solid brown;*/
+/*    color: brown;*/
+/*    font-weight: 700;*/
+}
+.topnav .burger {
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    .topnav a:not(:first-child) {
+        display: none;
+        text-align: left;
+    }
+    .topnav a.burger {
+        float: right;
+        margin-top: -16px;
+        display: block;
+/*        color: white;*/
+    }
+    .topnav a.burger:hover {
+/*        color: brown;*/
+    }
+    nav {
+        width: 100%;
+        height: auto;
+    }
+}
+/* ***********************************
+Main
+***************************************** */
+
+.main-text {
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+}
+.under-main-text {
+    font-size: 16px;
+    text-align: right;
+}
+.main-video {
+    margin: 10px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+/*  transform: translate(-50%, -50%);*/
+/*  position: relative;     */
+}
+/* ***********************************
+Porfolio
+***************************************** */
+.tec-cont {
+    padding: 10px;
+    /*
+    display: inline-flex;
+    flex-direction: column;
+*/
+}
+.titomir {
+    font-size: 20px;
+}
+.tec-p {
+    overflow:hidden;
+}
+.tec-p img {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+.tec-p p {
+    font-size: 13px;
+    text-align: left;
+/*    display: block;*/
+}
+.tec-img-sm {
+    max-width: 250px;
+}
+.tec-img-nr {
+    max-width: 400px;
+}
+.tec-img-lg {
+    max-width: 600px;
+}
+.tec-img-l {
+    float: left;
+}
+.tec-img-r {
+    float: right;
+}
+.tec-list {
+    font-size: 13px;
+    text-align: left;
+}
+.tec-h3 {
+    font-weight:700;
+}
+/* ***********************************
+Info
+***************************************** */
+
+.pf {
+    padding-top: 20px;
+    padding-bottom: 0px;
+/*    background-color: antiquewhite;*/
+}
+.pf-item {
+/*    margin-bottom: 10px;*/
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.title2 {
+    margin-bottom: 20px;
+}
+.pf-item_img {
+/*    height="250";*/
+    margin-bottom: 10px;
+    text-align: center;
+    max-width: 100%;
+/*    height: auto;*/
+}
+.pf-img {
+    margin: 10px;
+}
+.pf-img a:hover {
+    opacity: 0.8;
+    color: #8B4513;
+}
+/*
+.pf-item_img a {
+    text-decoration: none;
+}
+*/
+.pf-item_img a:hover {
+/*    outline: 3px solid brown;*/
+    opacity: 0.5;
+}
+.pf-item_title {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.pf-item_title a {
+    text-decoration: none;
+    color: darkgoldenrod;
+    border-bottom: 1px solid white;
+}
+.pf-item_title a:hover {
+    color: brown;    
+}
+.pf-item_txt p {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* ***********************************
+Footer
+***************************************** */
+
+.footer {
+    background-color: burlywood;
+/*    color:white;*/
+    padding-top: 0px;
+    padding-bottom: 0px;
+    letter-spacing: 20px;
+    font-weight: 600;
+}
+.footer a {
+    color: #FFF8DC;
+}
+.footer a:hover {
+    color: #8B4513;
+}
+
+.ft_name {
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+/*    line-height: normal;*/
+/*    margin-bottom: 20px;*/
+}
+.ft_name:hover {
+    color: brown;
+}
+p.ft_soc {
+    color: white;
+    font-size: 24px;
+}
+p.ft_soc_icon {
+    color: white;
+    font-size: 24px;
+}
+p.ft_soc_icon a {
+    color: white;
+    text-decoration: none;
+    margin-right: 24px;    
+}
+p.ft_soc_icon a:hover {
+    color: brown;
+}
+.button {
+/*    font-family: sans-serif;*/
+/*    font-size: 24px;*/
+    font-weight: 700;
+    text-decoration: none;
+/*    text-transform: uppercase;*/
+    letter-spacing: 1px;
+    color: white;
+    display: inline-block;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 45px;
+    padding-bottom: 4px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.button:hover {
+    color: brown;
+    background-color: white;
+}
+.i-pacific {
+    font-size: 26px;
+    font-weight: 600;
+}
+.e-mail-me {
+    margin-top: 3px;
+    font-weight: 600;
+}
+/* ***********************************
+Adaptation
+***************************************** */
+@media (max-width:900px) {
+    .container {
+        width: 100%;
+    }
+    .c-4 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .h_title {
+        font-size: 35px;
+        line-height: 36px;
+        margin-bottom: 14px;
+    }
+    .h_slogan {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .pf {
+        padding-bottom: 30px;
+        padding-top: 25px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .footer {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+/******************************
+Technology
+***************************************** */
+.tec-main, .tec-main div {
+    font-size: 13px;
+    text-align: left;
+    margin: 10px;
+}
+.tec-main img {
+    float: left;
+    padding: 0 20px 20px 0;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+/******************************
+Grid
+***************************************** */
+
+.container {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    
+}
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.c-4 {
+    width: 250px;
+    margin-left: 30px;
+    float:left;
+    text-align: center;
+}
+.c-4 a {
+    color: white;
+    font-weight: 700;
+}
+.c-4 a:hover {
+    color: brown;
+}
+
+/*
+.c-4.last-child {
+    margin-right: 0px;
+}
+*/
+
+/* ***********************************
+Single
+***************************************** */
+
+.pf_sp {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.pf_sp img {
+    margin-bottom: 50px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+}
+
+.button_back {
+/*    font-family: sans-serif;*/
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+/*    text-transform: uppercase;*/
+    letter-spacing: 1.5px;
+    color: white;
+    background-color: burlywood;
+    display: inline-block;
+    border-width: 3px;
+    border-color: burlywood;
+    border-style: solid;
+    border-radius: 45px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.button_back:hover {
+    color: brown;
+    background-color: white;
+}
