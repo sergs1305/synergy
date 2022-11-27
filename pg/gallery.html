@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Серёгин сайт</title>
+    <title>Настоящие фотографии</title>
     <!-- Отображать страницу в масштабе 100% !-->
     <meta name="viewport" content="width=device-width, initia-scale=1">
     <!-- Для старых браузеров -->
@@ -12,81 +12,75 @@
     <!-- Подключаем стили -->
     <link rel="stylesheet" href="../css/main.css">
     <!-- Фавикон -->
-    <link rel="shortcut icon" type="image/x-icon" href="../pic/07_fav.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="../pic/KodakEktar_fav.jpg">
     <!-- Подключаем шрифты -->
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
-<!-- ****************
-Info
+<!-- **************
+Header
 ************** -->
-<div class="pf">
-    <div class="container">
-        <div class="title">Настоящие фотографии<br></div>
-        <div class="title2">(скан-копии оптических отпечатков)</div>
-        <div class="row">
-<!-- Работа 1 -->
-            <div class="c-4">
-                <div class="pf-item">
-                    <div class="pf-item_img">
-                        <a href="pg/site1.html">
-                            <img src="../pic/01.jpg" height="250" alt="Pic01">
-                        </a>    
-                    </div>
-                </div>    
-                <div class="pf-item_title">
-                    <a href="pg/site1.html">Октябрь, берёзы, дорога</a>
-                </div>
-                <div class="pf-item_txt">
-                    <p>Mamiya RZ67, 65mm, Kodak Ektar</p>
-                </div>
-            </div>
-<!-- Работа 2 -->
-            <div class="c-4">
-                <div class="pf-item_img">
-                    <a href="pg/site2.html">
-                        <img src="../pic/02.jpg" height="250" alt="Pic02">
-                    </a>
-                </div>
-                <div class="pf-item_title">
-                    <a href="pg/site2.html">Август, Волга, острова</a>
-                </div>
-                <div class="pf-item_txt">
-                    <p>Mamiya RZ67, 75mm Shift, Kodak Ektar</p>
-                </div>
-            </div>
-<!-- Работа 3 -->
-            <div class="c-4">
-                <div class="pf-item_img">
-                    <a href="pg/site3.html">
-                        <img src="../pic/03.jpg" height="250" alt="Pic03">
-                    </a>
-                </div>
-                <div class="pf-item_title">
-                    <a href="pg/site3.html">Август, лес, река, девушка</a>
-                </div>
-                <div class="pf-item_txt">
-                    <p>Mamiya RZ67, 90mm, Kodak Ektar</p>
-                </div>
-            </div>
-<!-- Работа 4 -->
-            <div class="c-4">
-                <div class="pf-item_img">
-                    <a href="pg/site4.html">
-                        <img src="../pic/07.jpg" height="230" alt="Pic07">
-                    </a>
-                </div>
-                <div class="pf-item_title">
-                    <a href="pg/site4.html">Июль, море, восход, лодка</a>
-                </div>
-                <div class="pf-item_txt">
-                    <p>Canon EOS 30v, 135mm, Kodak Ektar</p>
-                </div>
-            </div>
-<!-- Конец работ -->            
-        </div>
+<div class="header">
+    <div class="h_title">Настоящие фотографии</div>
+    <div class="h_slogan">Все фото сняты на плёнку</div>
+</div>
+<!-- **************
+Navigation
+************** -->
+<nav>
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html">Главная</a>
+        <a href="../pg/portfolio.html">Портфолио</a>
+        <a href="../pg/gallery.html">Фотогалерея</a>
+        <a href="http://sergs13.tilda.ws/">Контакты</a>
+        <a href="../pg/technology.html">Технологии</a>
+<!-- Menu -->
+<div class="burger-menu">
+    <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+    <label class="btn-menu" for="hmt">
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
+    </label>
+    <ul class="hidden-menu">
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="../pg/portfolio.html">Портфолио</a></li>
+        <li><a href="../pg/gallery.html">Фотогалерея</a></li>
+        <li><a href="http://sergs13.tilda.ws/">Контакты</a></li>
+        <li><a href="../pg/technology.html">Технологии</a></li>
+    </ul>
+</div>
+</nav>
+    
+<!-- ****************
+Main
+************** -->
+
+ <div id="gallery">
+    <div class="photos">
+        <img class="showed" src="../pic/07.jpg" alt="07.jpg"/>
+        <img src="../pic/01.jpg" alt="01.jpg"/>
+        <img src="../pic/02.jpg" alt="02.jpg"/>
+        <img src="../pic/03.jpg" alt="03.jpg"/>
     </div>
+    <div class="buttons">
+        <button class="btn prev">Назад</button>
+        <button class="btn next">Вперёд</button>
+    </div>
+</div>
+
+<script src="../js/script.js"></script>   
+    
+<!-- **************
+Footer
+************** -->
+
+<div class="footer">
+    <a href="https://vk.com/c_prints" target="_blank"><i class="fa fa-vk"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100001917257814" target="_blank"><i class="fa fa-facebook"></i></a>
+    <a href="mailto:sergs13@yandex.ru">@</a>
 </div>
 
 </body>

@@ -2,44 +2,58 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Сайт о настоящей фотографии</title>
+    <title>Технологии</title>
     <!-- Отображать страницу в масштабе 100% !-->
     <meta name="viewport" content="width=device-width, initia-scale=1">
     <!-- Для старых браузеров -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Нормализуем -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Подключаем стили -->
+    <link rel="stylesheet" href="../css/main.css">
     <!-- Фавикон -->
     <link rel="shortcut icon" type="image/x-icon" href="../pic/KodakEktar_fav.jpg">
     <!-- Подключаем шрифты -->
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <!-- Подключаем стили -->
-    <link rel="stylesheet" href="../css/main.css">
+    
 </head>
 <body>
-<!-- ****************
+<!-- **************
 Header
 ************** -->
-    <div class="header">
-        <div class="h_title">Правда о цифровой «фотографии»</div>
-        <div class="h_slogan">или почему плёнка?</div>
-    </div>
-<!-- ****************
+<div class="header">
+    <div class="h_title">Правда о цифровой "фотографии"</div>
+    <div class="h_slogan">или "почему плёнка?"</div>
+</div>
+<!-- **************
 Navigation
 ************** -->
-    <nav>
-        <div class="topnav" id="myTopnav">
-            <!-- сюда ссылки навигации -->
-            <a href="../index.html">Главная</a>
-            <a href="#">Портфолио</a>
-            <a href="#">Фотогалерея</a>
-            <a href="#">Контакты</a>
-            <a href="#">Технологии</a>
-            <a id="menu" href="#" class="burger">&#9776</a>
-        </div>
-    </nav>
+<nav>
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html">Главная</a>
+        <a href="../pg/portfolio.html">Портфолио</a>
+        <a href="../pg/gallery.html">Фотогалерея</a>
+        <a href="http://sergs13.tilda.ws/">Контакты</a>
+        <a href="../pg/technology.html">Технологии</a>
+<!-- Menu -->
+<div class="burger-menu">
+    <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+    <label class="btn-menu" for="hmt">
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
+    </label>
+    <ul class="hidden-menu">
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="../pg/portfolio.html">Портфолио</a></li>
+        <li><a href="../pg/gallery.html">Фотогалерея</a></li>
+        <li><a href="http://sergs13.tilda.ws/">Контакты</a></li>
+        <li><a href="../pg/technology.html">Технологии</a></li>
+    </ul>
+</div>
+</nav>
 <!-- ****************
 Main content
 ************** -->
@@ -149,14 +163,14 @@ Main content
         </div>
     </div>
     
-<!-- ****************
+<!-- **************
 Footer
 ************** -->
+
 <div class="footer">
     <a href="https://vk.com/c_prints" target="_blank"><i class="fab fa-vk"></i></a>
     <a href="https://www.facebook.com/profile.php?id=100001917257814" target="_blank"><i class="fab fa-facebook-f"></i></a>
     <a href="mailto:sergs13@yandex.ru">@</a>
-    <a href="#" target="_blank">&#9774</a>
 </div>
 
 </body>

@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Сайт о настоящей фотографии</title>
+    <title>Портфолио</title>
     <!-- Отображать страницу в масштабе 100% !-->
     <meta name="viewport" content="width=device-width, initia-scale=1">
     <!-- Для старых браузеров -->
@@ -20,27 +20,40 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-<!-- ****************
+<!-- **************
 Header
 ************** -->
-    <div class="header">
-        <div class="h_title">Портфолио</div>
-        <div class="h_slogan">(мои страницы)</div>
-    </div>
-<!-- ****************
+<div class="header">
+    <div class="h_title">Портфолио</div>
+    <div class="h_slogan">(мои страницы)</div>
+</div>
+<!-- **************
 Navigation
 ************** -->
-    <nav>
-        <div class="topnav" id="myTopnav">
-            <!-- сюда ссылки навигации -->
-            <a href="../index.html">Главная</a>
-            <a href="#">Портфолио</a>
-            <a href="#">Фотогалерея</a>
-            <a href="#">Контакты</a>
-            <a href="#">Технологии</a>
-            <a id="menu" href="#" class="icon">&#9776</a>
-        </div>
-    </nav>
+<nav>
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html">Главная</a>
+        <a href="../pg/portfolio.html">Портфолио</a>
+        <a href="../pg/gallery.html">Фотогалерея</a>
+        <a href="http://sergs13.tilda.ws/">Контакты</a>
+        <a href="../pg/technology.html">Технологии</a>
+<!-- Menu -->
+<div class="burger-menu">
+    <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+    <label class="btn-menu" for="hmt">
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
+    </label>
+    <ul class="hidden-menu">
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="../pg/portfolio.html">Портфолио</a></li>
+        <li><a href="../pg/gallery.html">Фотогалерея</a></li>
+        <li><a href="http://sergs13.tilda.ws/">Контакты</a></li>
+        <li><a href="../pg/technology.html">Технологии</a></li>
+    </ul>
+</div>
+</nav>
 <!-- ****************
 Main content
 ************** -->
@@ -54,26 +67,26 @@ Main content
                 </a>    
             </div>
             <div class="col" mb-3>
-                <a href="http://sergs13.tilda.ws/">
-                    <img src="../pic/p1.png" height="250" alt="Портфолио">
+                <a href="../pg/portfolio.html">
+                    <img src="../pic/p2.png" height="250" alt="Портфолио">
                     <br>Портфолио
                 </a>    
             </div>
             <div class="col mb-3">
-                <a href="../index.html">
-                    <img src="../pic/p1.png" height="250" alt="Главная страница">
+                <a href="../pg/gallery.html">
+                    <img src="../pic/p3.png" height="250" alt="Главная страница">
                     <br>Фотогалерея
                 </a>    
             </div>
             <div class="col" mb-3>
-                <a href="../index.html">
+                <a href="http://sergs13.tilda.ws/">
                     <img src="../pic/p4.png" height="250" alt="Главная страница">
                     <br>Контакты
                 </a>    
             </div>
             <div class="col" mb-3>
-                <a href="../index.html">
-                    <img src="../pic/p1.png" height="250" alt="Главная страница">
+                <a href="../pg/technology.html">
+                    <img src="../pic/p5.png" height="250" alt="Главная страница">
                     <br>Технологии
                 </a>    
             </div>
@@ -81,14 +94,14 @@ Main content
         </div>
     </div>
 
-<!-- ****************
+<!-- **************
 Footer
 ************** -->
+
 <div class="footer">
     <a href="https://vk.com/c_prints" target="_blank"><i class="fa fa-vk"></i></a>
     <a href="https://www.facebook.com/profile.php?id=100001917257814" target="_blank"><i class="fa fa-facebook"></i></a>
     <a href="mailto:sergs13@yandex.ru">@</a>
-    <a href="#" target="_blank">&#9774</a>
 </div>
 
 </body>
