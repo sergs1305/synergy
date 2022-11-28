@@ -113,23 +113,18 @@ nav {
 /*общие стили значка-бургера, самого лэйбла*/
 .btn-menu {
     padding: 2px;
-/*    position: absolute;*/
-/*
-    top: 255px;
-    right: 20px;
-*/
     cursor: pointer;
-    transition: right .2s;
+    transition: right .1s;
     z-index: 3;
     width: 20px;
 }
 /*общие стили полосок*/
 .btn-menu span {
     display: block;
-    height: 2px;
+    height: 3px;
     width: 20px;
     background-color: #FFF8DC;
-    margin: 5px 0 0;
+    margin: 2px 0 0;
     transition: all .1s linear .1s;
     position: relative;
 }
@@ -140,7 +135,7 @@ nav {
 
 /*прибиваем к верху лэйбла первую полоску*/
 .btn-menu span.first {
-    margin-top: 0;
+    margin-top: 2px;
 }
 /*при нажатии на бургер двигаем его и делаем другой фон бургеру*/
 .hidden-menu-ticker:checked ~ .btn-menu {
@@ -151,7 +146,7 @@ nav {
 }
 .hidden-menu-ticker:checked ~ .btn-menu span.first {
     transform: rotate(45deg);
-    top: 7px;
+    top: 5px;
     background-color: #fff;
 }
 .hidden-menu-ticker:checked ~ .btn-menu span.second {
@@ -159,7 +154,7 @@ nav {
 }
 .hidden-menu-ticker:checked ~ .btn-menu span.third {
     transform: rotate(-45deg);
-    top: -7px;
+    top: -5px;
     background-color: #fff;
 }
 /*Adaptation*/
