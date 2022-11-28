@@ -138,8 +138,8 @@ nav {
     margin-top: 2px;
 }
 /*при нажатии на бургер двигаем его и делаем другой фон бургеру*/
-.hidden-menu-ticker:checked ~ .btn-menu {
-}
+/* .hidden-menu-ticker:checked ~ .btn-menu {
+} */
 /*и дальше стили меняющие бургер, двигающие менюшку по событию - нажатие на значек бургера*/
 .hidden-menu-ticker:checked ~ .hidden-menu {
     right: 0;
@@ -297,9 +297,6 @@ Info
     padding-top: 20px;
     padding-bottom: 0px;
 }
-.pf-item {
-/*    margin-bottom: 10px;*/
-}
 
 .title {
     font-size: 40px;
@@ -324,7 +321,6 @@ Info
     color: #8B4513;
 }
 .pf-item_img a:hover {
-/*    outline: 3px solid brown;*/
     opacity: 0.5;
 }
 .pf-item_title {
